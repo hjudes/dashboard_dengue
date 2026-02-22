@@ -36,4 +36,4 @@ El dashboard estará disponible en `http://localhost:8501`
 
 MAIA — Universidad de los Andes  
 Proyecto Desarrollo de Soluciones — Microproyecto  
-2025
+2026
