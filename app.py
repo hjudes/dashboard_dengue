@@ -204,7 +204,7 @@ with st.sidebar:
     <div style='text-align: center; color: #94a3b8; font-size: 0.75rem;'>
         MAIA — Universidad de los Andes<br>
         Proyecto Desarrollo de Soluciones<br>
-        2025
+        2026
     </div>
     """, unsafe_allow_html=True)
 
@@ -239,7 +239,7 @@ with col_map:
     df_map['nivel'] = pd.cut(df_map['prob_media'], bins=[-0.01, 0.3, 0.6, 1.01], labels=['Normal', 'Riesgo', 'Alerta'])
     
     color_map = {'Normal': '#22c55e', 'Riesgo': '#eab308', 'Alerta': '#ef4444'}
-    df_map['size'] = df_map['casos'].clip(lower=10) ** 0.5 * 3
+    df_map['size'] = df_map['casos'].clip(lower=10) ** 0.35 * 4
     df_map['prob_pct'] = (df_map['prob_media'] * 100).round(1)
     
     fig_map = go.Figure()
@@ -510,7 +510,7 @@ with st.expander("ℹ️ Acerca del Modelo y la Metodología"):
 st.markdown("""
 <div style="text-align:center; color:#94a3b8; font-size:0.75rem; margin-top:2rem; padding:1rem;">
     Sistema de Alerta Temprana de Dengue — Microproyecto PDS<br>
-    MAIA — Universidad de los Andes — 2025<br>
+    MAIA — Universidad de los Andes — 2026<br>
     Danilo Camargo · Jhon Eduard Moreno Díaz · Hernán Javier Silva Sosa · Sheyla Ruby Zela Quirita
 </div>
 """, unsafe_allow_html=True)
