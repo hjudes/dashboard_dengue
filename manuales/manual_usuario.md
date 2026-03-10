@@ -17,10 +17,7 @@ El usuario puede:
 
 # 2. Vista General del Sistema
 
-imgaen
-
-  
-
+![Fig](imagenes/dashboard.jpg)
 Figura 1. Vista general del Sistema de Alerta Temprana
 
 La vista principal contiene:
@@ -45,11 +42,11 @@ El usuario debe seleccionar:
 - Año
 - Mes
 
-  
-
 Estos filtros determinan el período para el cual se calcula la probabilidad de exceso.
 *Nota: Es importante seleccionar primero el año y luego el mes para actualizar correctamente la predicción.*
-Imagen (Recomendado: incluir imagen ampliada solo de la barra lateral de filtros)
+
+![Fig](imagenes/filtros.jpg)
+Figura 2. Barra lateral de filtros
 
 # 4. Mapa de Alerta Departamental
 
@@ -61,8 +58,8 @@ El mapa muestra la distribución espacial del riesgo para el período selecciona
 
 El tamaño del marcador puede reflejar magnitud de casos o probabilidad.
 
- Figura 2. Mapa de alerta por departamento
-(Recorte del mapa únicamente)
+![Fig](imagenes/mapa.jpg)
+Figura 3. Mapa de alerta por departamento
 
 Interacción:
 
@@ -148,9 +145,13 @@ Este archivo puede utilizarse para:
 # 9. Interpretación del Nivel de Riesgo
 
 |Nivel |Interpretación |  Acción sugerida|
+
 |--|--|
+
 |Normal |Probabilidad baja |Seguimiento rutinario|
+
 |Riesgo |Probabilidad moderada |Intensificar vigilancia|
+
 |Alerta |Probabilidad alta |Activar medidas de control|
 
 ⚠ Importante:
