@@ -146,12 +146,8 @@ Este archivo puede utilizarse para:
 📷 (Opcional: captura del botón resaltado)
 
 # 9. Interpretación del Nivel de Riesgo
-|  |  |
-|--|--|
-|  |  |
-|Nivel |Interpretación |  Acción sugerida
-|-Normal |Probabilidad baja|Seguimiento rutinario
-| Nivel | Interpretación | Acción sugerida 
+
+|Nivel |Interpretación |  Acción sugerida|
 |--|--|
 |Normal |Probabilidad baja |Seguimiento rutinario|
 |Riesgo |Probabilidad moderada |Intensificar vigilancia|
