@@ -136,10 +136,3 @@ curl http://localhost:8000/health
 
 Si ambos servicios responden correctamente, la instalación fue exitosa.
 
----
-
-## Proyecto
-
-MAIA — Universidad de los Andes
-Proyecto Desarrollo de Soluciones — Microproyecto
-2026
