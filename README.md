@@ -40,7 +40,8 @@ El dashboard estará disponible en `http://localhost:8501`
 > Integración modelo: model_loader.py carga logistic_dengue.pkl desde MLflow  
 > Ejecución: `pip install -r requirements.txt && streamlit run app.py`
 
-**Estado actual:** Prototipo funcional para Entrega 2 Microproyecto PDS.
+**Estado actual:** Prototipo funcional para Entrega 3 Microproyecto PDS.
+Se despliega bajo un ambiente EC2 en AWS el cual se expone con una IP pública.
 
 ## Proyecto
 
